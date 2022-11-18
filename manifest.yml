@@ -1,7 +1,3 @@
+---
 applications:
-- name: csvCompare
-  buildpack: https://github.com/cloudfoundry/java-buildpack.git#v4.16
-  path: csvCompare-0.0.1-SNAPSHOT.jar
-  memory: 1G
-  env:
-    JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+}}'
+- name: APP-NAME
